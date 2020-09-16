@@ -27,10 +27,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <style>
-      #messageBox{height: 600px}
-    </style>
-
     <title>Document</title>
   </head>
 
@@ -72,11 +68,13 @@
           <h1 class="pb-3 mb-3 border-bottom">Contact</h1>
           <div class="row">
             <div class="col-sm-10">
-              <form>
+
+              <!-- form with name, email, and message inputs -->
+              <form> 
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Name</label>
                   <input
-                    type="name"
+                    type="text"
                     class="form-control"
                     id="exampleFormControlInput1"
                     placeholder="Name"
@@ -94,14 +92,14 @@
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Message</label>
                   <textarea
-                    type="message"
+                    type="text"
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
                     placeholder="Message"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
               </form>
             </div>
           </div>
