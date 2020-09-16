@@ -1,5 +1,5 @@
 .nav-header{
-    background-color: teal;
+    background-color: #0F9F95;
     color: white;
     font-family: 'DM Serif Display', serif;
     font-size: x-large;
@@ -7,11 +7,11 @@
 
 .main-header{
     font-family: 'DM Serif Display', serif;
-    color: teal;
+    color: #0F9F95;
 }
 
 .submit-btn{
-    background-color: teal;
+    background-color: #0F9F95;
     color: white;
 }
 
@@ -23,7 +23,7 @@
     background-color: #666666;
     border-top-style: solid;
     border-top-width: 10px;
-    border-color: teal;
+    border-color: #0F9F95;
 }
 
 .footer-text{
