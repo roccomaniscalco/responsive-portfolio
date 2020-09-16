@@ -9,3 +9,8 @@
     font-family: 'DM Serif Display', serif;
     color: teal;
 }
+
+.submit-btn{
+    background-color: teal;
+    color: whitesmoke;
+}
