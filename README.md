@@ -1,26 +1,19 @@
 # Responsive Portfolio
 
+
 ## Description
 
 With mobile internet access becoming more prevalent than ever, it is crucial to build with a mobile-first mentality. This project's objective was to create a digital portfolio that is responsive and readable from any viewport.
 
 By using media queries, a website can determine the viewport size and restructure its components accordingly. The responsive portfolio focuses on layouts at the 992px, 768px, and 400px mark.
 
-This project contains responsive:
-
-* Navbar
-* Rows and Columns
-* Images
-
-### Challenges
-
-While creating this web app, I encountered difficulty in maintaining quality consistent among all viewports. It was challenging to optimize the user experience while reducing the use of media queries when possible. In order to achieve a balance, I sacrificed details such as margin and padding to focus on readability.
 
 ## Usage
 
 View the deployed [Responsive Portfolio!](https://roccomaniscalco.github.io/responsive-portfolio/)
 
-![Responsive Portfolio](assets/Portfolio.png)
+![Responsive Portfolio](./assets/screenshot.png)
+
 
 ## Installation
 
@@ -28,11 +21,12 @@ View the deployed [Responsive Portfolio!](https://roccomaniscalco.github.io/resp
 2.  Click the green code button and select method of download
 3.  Open the downloaded Responsive Portfolio repository with your choice of text-editor or IDE
 
+
 ## Credits
 
-* reference images provided by [Jonathon Watson](https://github.com/jonathanjwatson)
+* Icons provided by [Font Awesome](https://fontawesome.com/)
+* Styling components provided by [Bootstrap](https://getbootstrap.com/)
 
-* css styling components provided by [Bootstrap](https://getbootstrap.com/)
 
 ## License
 responsive-portfolio license

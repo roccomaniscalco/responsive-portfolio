@@ -30,46 +30,24 @@
       src="https://kit.fontawesome.com/76d5191670.js"
       crossorigin="anonymous"
     ></script>
-    <title>About</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="./assets/favicon.png">
+    <title>Rocco Maniscalco</title>
   </head>
 
   <body
     background="https://st2.depositphotos.com/2158511/6138/v/950/depositphotos_61385417-stock-illustration-dancing-people-seamless-background.jpg"
   >
-    <!-- navbar with links to portfolio, contact, and index pages -->
-    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
-      <h1 class="navbar-brand mb-0 h1">Rocco Maniscalco</h1>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarNavAltMarkup"
-      >
-        <div class="navbar-nav">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-link active" href="index.html">About</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- main content box -->
+    <!-- About Me -->
     <main class="container-fluid mt-5">
       <article class="row">
-        <section class="bg-light col-sm-8 my-5 mx-4 p-4">
+        <section class="bg-light col-md-8 my-5 mx-4 p-4">
           <h1 class="pb-3 mb-3 border-bottom">About Me</h1>
           <img
-            style="max-width: 200px; max-height: 200px;"
+            style="max-width: 200px; max-height: 200px"
             class="float-left mb-2 mr-3"
-            src="./me.JPG"
+            src="./assets/me.JPG"
             alt="Rocco Maniscalco"
           />
           <p class="font-weight-heavy mb-0">
@@ -89,7 +67,8 @@
             <a href="tel:404-910-2897"
               ><i style="color: black" class="fas fa-phone-square fa-lg"></i
             ></a>
-            <a href="mailto:rmaniscalco1@student.gsu.edu?subject=Message%20Sent%20From%20Personal%20Website"
+            <a
+              href="mailto:rmaniscalco1@student.gsu.edu?subject=Message%20Sent%20From%20Personal%20Website"
               ><i style="color: black" class="fas fa-envelope-square fa-lg"></i
             ></a>
             <a href="https://github.com/roccomaniscalco"
@@ -98,12 +77,61 @@
             <a href="https://www.linkedin.com/in/rocco-maniscalco-983637197/"
               ><i style="color: black" class="fab fa-linkedin fa-lg"></i
             ></a>
-            <a href="./Rocco Maniscalco's Resume.pdf" download
+            <a href="./assets/Rocco_Maniscalco's_Resume.pdf"
               ><i style="color: black" class="fas fa-file-pdf fa-lg"></i
             ></a>
           </h3>
         </section>
       </article>
+
+      <!-- Portfolio -->
+      <div class="row">
+        <section class="bg-light col-md-8 my-5 mx-4 p-4">
+          <h1 class="pb-3 mb-3 border-bottom">Portfolio</h1>
+          <h4 class="mb-1">
+            COVID Cost
+            <a href="https://github.com/roccomaniscalco/covid-cost"
+              ><i style="color: black" class="fab fa-github float-right"></i
+            ></a>
+            <a href="https://roccomaniscalco.github.io/covid-cost/"
+              ><i style="color: black" class="fas fa-link float-right mr-1"></i
+            ></a>
+          </h4>
+          <img
+            class="img-fluid mb-3"
+            src="./assets/covid-cost.png"
+            alt="COVID cost web app"
+          />
+          <h4 class="mb-1">
+            Weather Dash
+            <a href="https://github.com/roccomaniscalco/weather-dashboard"
+              ><i style="color: black" class="fab fa-github float-right"></i
+            ></a>
+            <a href="https://roccomaniscalco.github.io/weather-dashboard/"
+              ><i style="color: black" class="fas fa-link float-right mr-1"></i
+            ></a>
+          </h4>
+          <img
+            class="img-fluid mb-3"
+            src="./assets/weather-dashboard.png"
+            alt="Weather Dashboard web app"
+          />
+          <h4 class="mb-1">
+            Code Quiz
+            <a href="https://github.com/roccomaniscalco/code-quiz"
+              ><i style="color: black" class="fab fa-github float-right"></i
+            ></a>
+            <a href="https://roccomaniscalco.github.io/code-quiz/"
+              ><i style="color: black" class="fas fa-link float-right mr-1"></i
+            ></a>
+          </h4>
+          <img
+            class="img-fluid mb-3"
+            src="./assets/code-quiz.png"
+            alt="Code Quiz web app"
+          />
+        </section>
+      </div>
     </main>
   </body>
 </html>
